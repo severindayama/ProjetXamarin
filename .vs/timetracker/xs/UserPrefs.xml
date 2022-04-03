@@ -1,0 +1,66 @@
+﻿<Properties StartupConfiguration="{1CE44A98-0E75-42E4-9D24-06288509990C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/TimeTracker.Apps/ViewModels/Projet.cs">
+    <Files>
+      <File FileName="src/TimeTracker.Apps/Pages/AddProjetpage.xaml" Line="1" Column="1" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Pages/Projetpage.xaml.cs" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Converters/AddOrEditTextConverter.cs" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Pages/Loginpage.xaml" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Pages/MainPage.xaml" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Pages/Registerpage.xaml" Line="1" Column="1" IsPinned="True" />
+      <File FileName="src/TimeTracker.Apps/Pages/Projetpage.xaml" Line="2" Column="2" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/Projet.cs" Line="72" Column="1" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/Login.cs" />
+      <File FileName="src/TimeTracker.Apps/Pages/Registerpage.xaml.cs" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/AddProjet.cs" />
+      <File FileName="src/TimeTracker.Apps/Services/TimeTrackerServices.cs" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/MainViewModel.cs" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/Register.cs" />
+      <File FileName="src/TimeTracker.Dtos/Errors.cs" />
+      <File FileName="src/TimeTracker.Dtos/Projects/AddProjectRequest.cs" />
+      <File FileName="src/TimeTracker.Dtos/Urls.cs" />
+      <File FileName="src/TimeTracker.Apps/Pages/AddProjetpage.xaml.cs" />
+      <File FileName="src/TimeTracker.Apps/Services/DomainException.cs" />
+      <File FileName="src/TimeTracker.Dtos/Authentications/LoginResponse.cs" />
+      <File FileName="src/TimeTracker.Dtos/Projects/ProjectItem.cs" />
+      <File FileName="src/TimeTracker.Dtos/Authentications/RefreshRequest.cs" />
+      <File FileName="src/TimeTracker.Dtos/Accounts/CreateUserRequest.cs" />
+      <File FileName="src/TimeTracker.Apps/ViewModels/Token.cs" />
+      <File FileName="src/TimeTracker.Dtos/Authentications/Credentials/LoginWithCredentialsRequest.cs" />
+      <File FileName="src/TimeTracker.Apps/App.xaml" Line="1" Column="1" />
+      <File FileName="src/TimeTracker.Apps/obj/Debug/netstandard2.0/Pages/Projetpage.xaml.g.cs" />
+      <File FileName="src/TimeTracker.Apps/Services/async.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="timetracker" expanded="True">
+            <Node name="TimeTracker.Apps" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Projetpage.xaml" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="Projet.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="TimeTracker.Dtos" expanded="True">
+              <Node name="Projects" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TimeTracker.Apps.Droid PreferredExecutionTarget="Android.pixel_c_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/Pages/Registerpage.xaml" relfile="src/TimeTracker.Apps/Pages/Registerpage.xaml" line="5" column="1" />
+      <Breakpoint file="/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/Pages/Projetpage.xaml" relfile="src/TimeTracker.Apps/Pages/Projetpage.xaml" line="1" column="1" />
+      <Breakpoint file="/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/Pages/Projetpage.xaml" relfile="src/TimeTracker.Apps/Pages/Projetpage.xaml" line="2" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

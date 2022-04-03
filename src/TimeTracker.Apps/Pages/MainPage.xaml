@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<forms:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:forms="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+                 xmlns:viewModels="clr-namespace:TimeTracker.Apps.ViewModels;assembly=TimeTracker.Apps"
+                 x:DataType="viewModels:MainViewModel"
+                 x:Class="TimeTracker.Apps.Pages.MainPage"
+                 Title="Authentification"> 
+
+    <StackLayout Margin="12,0,12,48" Orientation="Vertical"
+                 VerticalOptions="Center">
+
+                            <Button Text="Connexion"
+                            BackgroundColor="LightGreen"
+                            CornerRadius="32"
+                            HeightRequest="64"
+                            
+                            Command="{Binding Connect}"
+                            />
+         
+
+            
+                <Button Text="Inscription"
+                 BackgroundColor="LightGreen"
+                CornerRadius="32"
+                HeightRequest="64"
+             
+                Command="{Binding InscriptionCommand}"/>
+       </StackLayout>
+                            
+           
+
+       
+
+</forms:BaseContentPage>

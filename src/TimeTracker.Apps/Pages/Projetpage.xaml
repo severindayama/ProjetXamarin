@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<forms:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+             xmlns:viewModels="clr-namespace:TimeTracker.Apps.ViewModels;assembly=TimeTracker.Apps"
+             x:DataType="viewModels:Projet"
+             x:Class="TimeTracker.Apps.Pages.Projetpage"
+             Title="Liste Des Projets">
+    
+<ContentPage.Content>
+     <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+                  <ListView ItemsSource="{Binding List}" RowHeight="100">
+                     <ListView.ItemTemplate>
+                         <DataTemplate>
+                             
+                          
+                          
+                            <ViewCell>
+                                <StackLayout
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="FillAndExpand"
+                                    Orientation="Vertical">
+                                    
+                                    <Label Text="{Binding Name}" TextColor="Black" FontSize="24"/>
+                                    
+                                    <Label Text="{Binding Description}" 
+                                           TextColor="#555555"
+                                           MaxLines="2"
+                                           LineBreakMode="TailTruncation"
+                                           FontSize="18"/>
+                                    <Button Text="Editer"
+                                  
+
+                                    VerticalOptions="Start"
+                                    BackgroundColor="LightBlue"
+                                    CornerRadius="32"
+                                    WidthRequest="200"
+                                    FontSize="Medium"
+                                    HeightRequest="40"
+                                    TextTransform="Uppercase"
+                                    HorizontalOptions="Center"
+                                  
+                                    />
+
+                                   
+                                    
+     
+                                
+                            </StackLayout>
+
+                            </ViewCell>
+                             
+                                
+                            
+                            
+                         </DataTemplate>
+                     </ListView.ItemTemplate>
+                  </ListView>
+         
+        <Button VerticalOptions="EndAndExpand" Text="Ajouter un Projet" 
+                
+                BackgroundColor="LightGreen"
+                FontSize="Large"
+                CornerRadius="32"
+                HeightRequest="64"
+                WidthRequest="294"
+                HorizontalOptions="Start"
+                TextTransform="Uppercase"
+                Command="{Binding ValidateCommand}"
+        />
+    
+   
+         <Button Text="Editer Profil"
+                    VerticalOptions="EndAndExpand"
+                    BackgroundColor="LightGreen"
+                    CornerRadius="32"
+                    WidthRequest="300"
+                    FontSize="Large"
+                    HeightRequest="70"
+                    TextTransform="Uppercase"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding EditProfil}"
+            />
+     
+        
+                 <Button Text="Modifier Mot De Passe"
+                    TextTransform="Uppercase"
+                    BackgroundColor="LightGreen"
+                    CornerRadius="32"
+                    FontSize="Large"
+                    HeightRequest="64"
+                    WidthRequest="300"
+                    VerticalOptions="EndAndExpand"
+                    HorizontalOptions="EndAndExpand"
+                    Command="{Binding EditPassword}"
+            />
+
+      
+   
+    
+  </Grid>
+</ContentPage.Content>
+    
+</forms:BaseContentPage>

@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps.iOS/TimeTracker.Apps.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps.iOS/TimeTracker.Apps.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps.iOS/TimeTracker.Apps.iOS.csproj",
+        "projectName": "TimeTracker.Apps.iOS",
+        "projectPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps.iOS/TimeTracker.Apps.iOS.csproj",
+        "packagesPath": "/Users/giscarddayama/.nuget/packages/",
+        "outputPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/giscarddayama/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/TimeTracker.Apps.csproj": {
+                "projectPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/TimeTracker.Apps.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[1.0.0-preview1, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            },
+            "Storm.Mvvm.Forms": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/TimeTracker.Apps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/TimeTracker.Apps.csproj",
+        "projectName": "TimeTracker.Apps",
+        "projectPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/TimeTracker.Apps.csproj",
+        "packagesPath": "/Users/giscarddayama/.nuget/packages/",
+        "outputPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Apps/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/giscarddayama/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj": {
+                "projectPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microcharts.Forms": {
+              "target": "Package",
+              "version": "[1.0.0-preview1, )"
+            },
+            "MonkeyCache.LiteDB": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            },
+            "Storm.Mvvm.Forms": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2337, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj",
+        "projectName": "TimeTracker.Dtos",
+        "projectPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj",
+        "packagesPath": "/Users/giscarddayama/.nuget/packages/",
+        "outputPath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/giscarddayama/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Storm.Api.Dtos": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

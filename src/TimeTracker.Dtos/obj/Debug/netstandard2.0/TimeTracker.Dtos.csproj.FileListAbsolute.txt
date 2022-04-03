@@ -1,0 +1,10 @@
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/bin/Debug/netstandard2.0/TimeTracker.Dtos.deps.json
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/bin/Debug/netstandard2.0/TimeTracker.Dtos.dll
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/bin/Debug/netstandard2.0/TimeTracker.Dtos.pdb
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.csproj.AssemblyReference.cache
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.AssemblyInfoInputs.cache
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.AssemblyInfo.cs
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.csproj.CoreCompileInputs.cache
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.dll
+/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/obj/Debug/netstandard2.0/TimeTracker.Dtos.pdb

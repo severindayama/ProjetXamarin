@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<forms1:BaseContentPage
+ xmlns:forms1="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewModels="clr-namespace:TimeTracker.Apps.ViewModels;assembly=TimeTracker.Apps"
+ 
+    
+    x:DataType="viewModels:Register"
+    x:Class="TimeTracker.Apps.Pages.Registerpage"
+    Title="Resgistration">
+  
+       <ContentPage.Content>
+         
+
+             <StackLayout>
+                
+                    <Entry Placeholder="Prénom" FontSize="20" x:Name="Prenom"  Text="{Binding Prenom}"/>
+              
+
+                
+                    <Entry Placeholder="Nom" FontSize="20" x:Name="nom" Text="{Binding Nom}"/>
+              
+
+             
+                    <Entry Placeholder="Email" FontSize="20" x:Name="email" Text="{Binding Email}"/>
+             
+
+                
+                    <Entry Placeholder="Mot de passe" IsPassword="True" FontSize="20" x:Name="password" Text="{Binding Password}"/>
+                
+
+              
+                    <Button Text="Enregister" HorizontalOptions="Center" TextColor="White"
+                               BackgroundColor="Blue" Command="{Binding Registration}"/>
+          
+                
+                </StackLayout>
+
+          
+   </ContentPage.Content>
+        
+  
+    
+
+    
+          
+
+          
+
+
+    
+</forms1:BaseContentPage>

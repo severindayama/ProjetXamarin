@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VGaZy/YeYs44xUhuY0YadQtFU5lxH2py9AEmALtHMjey7dpoYLIy1GBbe2p7PIIJMH5L40Mml8PFW/JQeYE+rg==",
+  "success": true,
+  "projectFilePath": "/Users/giscarddayama/project_Timetracker/src/TimeTracker.Dtos/TimeTracker.Dtos.csproj",
+  "expectedPackageFiles": [
+    "/Users/giscarddayama/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/giscarddayama/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/giscarddayama/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/giscarddayama/.nuget/packages/storm.api.dtos/2.0.2/storm.api.dtos.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

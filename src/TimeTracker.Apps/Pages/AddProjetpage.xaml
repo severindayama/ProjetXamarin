@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<forms1:BaseContentPage
+ xmlns:forms1="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:TimeTracker.Apps.Converters"
+    xmlns:viewModels="clr-namespace:TimeTracker.Apps.ViewModels;assembly=TimeTracker.Apps"
+    x:DataType="viewModels:AddProjet"
+    x:Class="TimeTracker.Apps.Pages.AddProjetpage"
+    >
+   
+    
+    <StackLayout Margin="12,0,12,48" VerticalOptions="CenterAndExpand">
+        <Entry Text="{Binding ProjetName}"
+                Placeholder="Nom du projet"
+               HorizontalOptions="FillAndExpand"
+               HeightRequest="64"
+               WidthRequest="400"
+               />
+        <Entry Text="{Binding ProjetDescription}"
+                Placeholder="Description du projet"
+               HorizontalOptions="FillAndExpand"
+               HeightRequest="64"
+               />
+        <Button Text="Creer"
+                BackgroundColor="LightGreen"
+                CornerRadius="32"
+                HeightRequest="64"
+                Command="{Binding CreatProjet}"
+                
+        />
+        <Button Text="Annuler"
+                TextColor="White"
+                BackgroundColor="DarkRed"
+                CornerRadius="32"
+                HeightRequest="64"
+                Command="{Binding Annuler}"
+               
+        />
+        
+    </StackLayout>
+   
+</forms1:BaseContentPage>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<forms1:BaseContentPage
+    xmlns:forms1="clr-namespace:Storm.Mvvm.Forms;assembly=Storm.Mvvm.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="TimeTracker.Apps.Pages.Loginpage"
+    xmlns:viewModels="clr-namespace:TimeTracker.Apps.ViewModels;assembly=TimeTracker.Apps" 
+    x:DataType="viewModels:Login"
+    Title="Login">
+  
+    <ContentPage.Content>
+         <ScrollView>
+                <StackLayout>
+                    <Grid Margin="20,0,20,0" VerticalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <StackLayout Grid.Row="0">
+                            <Entry Placeholder="Email" FontSize="16" x:Name="login" Text="{Binding Email}"/> 
+                        </StackLayout>
+                    
+                        <StackLayout Grid.Row="1">
+                            <Entry Placeholder="Mot de passe" IsPassword="True" FontSize="16" x:Name="mdp" Text="{Binding Password}"/> 
+                        </StackLayout>
+                    
+                        <StackLayout Grid.Row="2">
+                            <Button Text="Se connecter" BackgroundColor="#0077be" TextColor="White" Command="{Binding Connexion}"/> 
+                        </StackLayout>
+                    
+                       
+                    </Grid>
+                
+                </StackLayout>
+            
+            
+            </ScrollView>
+    </ContentPage.Content>
+</forms1:BaseContentPage>
